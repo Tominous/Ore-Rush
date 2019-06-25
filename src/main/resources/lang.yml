@@ -1,0 +1,28 @@
+cmd:
+  orerush:
+    end:
+      usage: "Proper usage is &b/orerush end <mine>"
+    endall:
+      success: "You have ended all ore rushes!"
+    usage:
+      - "&8&l&m--------------------"
+      - "&3&lOre Rush Commands:"
+      - "&7 /orerush - &fView usage"
+      - "&7 /orerush start [mine] - &fStart an ore rush"
+      - "&7 /orerush end <mine> - &fEnd an ore rush"
+      - "&7 /orerush endall - &fEnd all active ore rushes"
+      - "&8&l&m--------------------"
+
+err:
+  nomine: "Unable to find a mine to start an ore rush for"
+  noorerushactive: "There is not an ore rush active for the &b%mine% &7mine"
+  nopermission: "You don't have permission to do this!"
+  notnumber: "&b%arg% &7is not a number!"
+  orerushactive: "There is already an ore rush active for the &b%mine% &7mine"
+  unknownmine: "No mine called '&b%mine%&7' was found"
+
+orerush:
+  started: "An ore rush has started in &b%mine% Mine &7and will last for &b%time%"
+  ended: "An ore rush has ended in &b%mine% Mine"
+
+prefix: "&3&lOre Rush &8\u00BB &7"

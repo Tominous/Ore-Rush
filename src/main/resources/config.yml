@@ -1,0 +1,12 @@
+# What mines should be filled with when an ore rush begins
+Composition:
+  DIAMOND_BLOCK: 0.50
+  EMERALD_BLOCK: 0.50
+
+# Settings for scheduled ore rushes
+# Interval specifies how often in seconds an ore rush will occur
+# Length specifies how long a scheduled ore rush will last for
+Scheduled-Rush-Settings:
+  Interval: 3600
+  Length: 300
+  Mine: random

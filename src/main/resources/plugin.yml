@@ -1,0 +1,10 @@
+name: OreRush
+description: A fun mine based game
+version: ${project.version}
+author: Carlos#2018
+main: us.carlosmendez.spigotmc.orerush.OreRush
+depend: [MineResetLite]
+api-version: 1.14.2
+commands:
+  orerush:
+    description: Base command for the plugin
